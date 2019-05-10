@@ -121,10 +121,10 @@ function resuelto(){
 	pluma.fillStyle = "blue";
 	pluma.font = font_win;
 	pluma.textAlign = "left";
-	pluma.fillText("Felicidades!", 300, 300)
+	pluma.fillText("Felicidades!", 350, 150)
 	var d = new Date(Date());
-	pluma.fillText("Tiempo: " + parseInt((d.getTime() - start_time)/1000) + " segundos", 300, 330)
-	pluma.fillText("Movimientos: " + movimientos, 300, 360)
+	pluma.fillText("Tiempo: " + parseInt((d.getTime() - start_time)/1000) + " segundos", 350, 180)
+	pluma.fillText("Movimientos: " + movimientos, 350, 210)
 }
 
 function actualizar(){
